@@ -1,0 +1,19 @@
+# Site configurations for price scraping
+# Add your site configurations here
+
+sites:
+  - name: "Walmart - Acer Nitro V Laptop"
+    url: "https://www.walmart.com/ip/Acer-Nitro-V-15-6-1920-x-1080-FHD-165Hz-Gaming-Laptop-Intel-Core-i5-16GB-RAM-512GB-Obsidian-Black/16528002857"
+    enabled: true
+    product_id: 5        # Acer Nitro V Gaming Laptop
+    location_id: 4       # Test Location
+    parser: browser      # Use browser-based parser
+    use_browser: true
+    selectors:
+      title: "h1[itemprop='name']"
+      price: "span[itemprop='price']"
+      original_price: "span.f7.mid-gray"
+      availability: "button[data-testid='add-to-cart-button']"  # If button exists, assume in stock
+    rate_limit:
+      requests_per_minute: 5
+      delay_between_requests: 3

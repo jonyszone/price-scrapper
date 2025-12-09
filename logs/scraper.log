@@ -1,0 +1,259 @@
+2025-12-09 14:52:45,361 - src.utils - INFO - Starting price scraper
+2025-12-09 14:52:45,362 - src.utils - INFO - Loaded 1 site configurations
+2025-12-09 14:52:45,362 - src.utils - WARNING - No parsers registered. Please implement and register site-specific parsers.
+2025-12-09 14:52:45,369 - src.utils - WARNING - API health check failed. Continuing anyway...
+2025-12-09 14:52:45,370 - src.scraper - ERROR - Parser base not found for site example_site
+2025-12-09 14:52:45,370 - src.scraper - INFO - Total products scraped: 0
+2025-12-09 14:52:45,370 - src.utils - INFO - No products scraped
+2025-12-09 14:52:45,370 - src.utils - INFO - Price scraper finished
+2025-12-09 14:54:22,954 - src.utils - INFO - Starting price scraper
+2025-12-09 14:54:22,955 - src.utils - INFO - Loaded 1 site configurations
+2025-12-09 14:54:22,955 - src.utils - WARNING - No parsers registered. Please implement and register site-specific parsers.
+2025-12-09 14:54:23,158 - src.utils - WARNING - API health check failed. Continuing anyway...
+2025-12-09 14:54:23,159 - src.scraper - ERROR - Parser base not found for site example_site
+2025-12-09 14:54:23,159 - src.scraper - INFO - Total products scraped: 0
+2025-12-09 14:54:23,159 - src.utils - INFO - No products scraped
+2025-12-09 14:54:23,159 - src.utils - INFO - Price scraper finished
+2025-12-09 15:37:05,742 - src.utils - INFO - Starting price scraper
+2025-12-09 15:37:05,744 - src.utils - INFO - Loaded 1 site configurations
+2025-12-09 15:37:05,744 - src.scraper - INFO - Registered parser: base
+2025-12-09 15:37:05,744 - src.scraper - INFO - Registered parser: generic
+2025-12-09 15:37:05,849 - src.utils - WARNING - API health check failed. Continuing anyway...
+2025-12-09 15:37:05,849 - src.scraper - INFO - Scraping site: Local Test Site
+2025-12-09 15:37:05,857 - src.scraper - INFO - Scraped 1 products from Local Test Site
+2025-12-09 15:37:05,857 - src.scraper - INFO - Total products scraped: 1
+2025-12-09 15:37:05,885 - src.api_client - ERROR - Failed to send products to API: 422 Client Error: Unprocessable Content for url: http://localhost:8000/api/v1/scraper/price/bulk
+2025-12-09 15:37:05,885 - src.utils - ERROR - Failed to send products to API: 422 Client Error: Unprocessable Content for url: http://localhost:8000/api/v1/scraper/price/bulk
+2025-12-09 15:37:05,885 - src.utils - INFO - Price scraper finished
+2025-12-09 15:37:21,445 - src.utils - INFO - Starting price scraper
+2025-12-09 15:37:21,445 - src.utils - INFO - Loaded 1 site configurations
+2025-12-09 15:37:21,445 - src.scraper - INFO - Registered parser: base
+2025-12-09 15:37:21,445 - src.scraper - INFO - Registered parser: generic
+2025-12-09 15:37:21,453 - src.utils - WARNING - API health check failed. Continuing anyway...
+2025-12-09 15:37:21,453 - src.scraper - INFO - Scraping site: Local Test Site
+2025-12-09 15:37:21,455 - src.scraper - INFO - Scraped 1 products from Local Test Site
+2025-12-09 15:37:21,455 - src.scraper - INFO - Total products scraped: 1
+2025-12-09 15:37:21,461 - src.api_client - ERROR - API Error details: {"success":false,"message":"Validation failed","errors":{"prices.0.availability":["The prices.0.availability field must exist in in stock."]}}
+2025-12-09 15:37:21,461 - src.api_client - ERROR - Failed to send products to API: 422 Client Error: Unprocessable Content for url: http://localhost:8000/api/v1/scraper/price/bulk
+2025-12-09 15:37:21,461 - src.utils - ERROR - Failed to send products to API: 422 Client Error: Unprocessable Content for url: http://localhost:8000/api/v1/scraper/price/bulk
+2025-12-09 15:37:21,461 - src.utils - INFO - Price scraper finished
+2025-12-09 15:37:38,720 - src.utils - INFO - Starting price scraper
+2025-12-09 15:37:38,721 - src.utils - INFO - Loaded 1 site configurations
+2025-12-09 15:37:38,721 - src.scraper - INFO - Registered parser: base
+2025-12-09 15:37:38,721 - src.scraper - INFO - Registered parser: generic
+2025-12-09 15:37:38,728 - src.utils - WARNING - API health check failed. Continuing anyway...
+2025-12-09 15:37:38,728 - src.scraper - INFO - Scraping site: Local Test Site
+2025-12-09 15:37:38,731 - src.scraper - INFO - Scraped 1 products from Local Test Site
+2025-12-09 15:37:38,731 - src.scraper - INFO - Total products scraped: 1
+2025-12-09 15:37:38,736 - src.api_client - ERROR - API Error details: {"success":false,"message":"Validation failed","errors":{"prices.0.availability":["The prices.0.availability field must exist in in stock."]}}
+2025-12-09 15:37:38,736 - src.api_client - ERROR - Failed to send products to API: 422 Client Error: Unprocessable Content for url: http://localhost:8000/api/v1/scraper/price/bulk
+2025-12-09 15:37:38,736 - src.utils - ERROR - Failed to send products to API: 422 Client Error: Unprocessable Content for url: http://localhost:8000/api/v1/scraper/price/bulk
+2025-12-09 15:37:38,736 - src.utils - INFO - Price scraper finished
+2025-12-09 15:37:56,919 - src.utils - INFO - Starting price scraper
+2025-12-09 15:37:56,920 - src.utils - INFO - Loaded 1 site configurations
+2025-12-09 15:37:56,920 - src.scraper - INFO - Registered parser: base
+2025-12-09 15:37:56,920 - src.scraper - INFO - Registered parser: generic
+2025-12-09 15:37:56,928 - src.utils - WARNING - API health check failed. Continuing anyway...
+2025-12-09 15:37:56,928 - src.scraper - INFO - Scraping site: Local Test Site
+2025-12-09 15:37:56,930 - src.scraper - INFO - Scraped 1 products from Local Test Site
+2025-12-09 15:37:56,930 - src.scraper - INFO - Total products scraped: 1
+2025-12-09 15:37:56,935 - src.api_client - ERROR - API Error details: {"success":false,"message":"Validation failed","errors":{"prices.0.availability":["The prices.0.availability field must exist in in stock."]}}
+2025-12-09 15:37:56,935 - src.api_client - ERROR - Failed to send products to API: 422 Client Error: Unprocessable Content for url: http://localhost:8000/api/v1/scraper/price/bulk
+2025-12-09 15:37:56,935 - src.utils - ERROR - Failed to send products to API: 422 Client Error: Unprocessable Content for url: http://localhost:8000/api/v1/scraper/price/bulk
+2025-12-09 15:37:56,935 - src.utils - INFO - Price scraper finished
+2025-12-09 15:38:53,194 - src.utils - INFO - Starting price scraper
+2025-12-09 15:38:53,195 - src.utils - INFO - Loaded 1 site configurations
+2025-12-09 15:38:53,195 - src.scraper - INFO - Registered parser: base
+2025-12-09 15:38:53,195 - src.scraper - INFO - Registered parser: generic
+2025-12-09 15:38:53,203 - src.utils - WARNING - API health check failed. Continuing anyway...
+2025-12-09 15:38:53,203 - src.scraper - INFO - Scraping site: Local Test Site
+2025-12-09 15:38:53,205 - src.scraper - INFO - Scraped 1 products from Local Test Site
+2025-12-09 15:38:53,206 - src.scraper - INFO - Total products scraped: 1
+2025-12-09 15:38:53,211 - src.api_client - ERROR - API Error details: {"success":false,"message":"Validation failed","errors":{"prices.0.availability":["The prices.0.availability field must exist in in stock."]}}
+2025-12-09 15:38:53,211 - src.api_client - ERROR - Failed to send products to API: 422 Client Error: Unprocessable Content for url: http://localhost:8000/api/v1/scraper/price/bulk
+2025-12-09 15:38:53,211 - src.utils - ERROR - Failed to send products to API: 422 Client Error: Unprocessable Content for url: http://localhost:8000/api/v1/scraper/price/bulk
+2025-12-09 15:38:53,211 - src.utils - INFO - Price scraper finished
+2025-12-09 15:42:25,660 - src.utils - INFO - Starting price scraper
+2025-12-09 15:42:25,661 - src.utils - INFO - Loaded 1 site configurations
+2025-12-09 15:42:25,661 - src.scraper - INFO - Registered parser: base
+2025-12-09 15:42:25,661 - src.scraper - INFO - Registered parser: generic
+2025-12-09 15:42:25,671 - src.utils - WARNING - API health check failed. Continuing anyway...
+2025-12-09 15:42:25,671 - src.scraper - INFO - Scraping site: Amazon Laptop Example
+2025-12-09 15:42:26,350 - src.parsers.generic - WARNING - Could not find price for Amazon Laptop Example
+2025-12-09 15:42:26,350 - src.scraper - INFO - Scraped 0 products from Amazon Laptop Example
+2025-12-09 15:42:26,350 - src.scraper - INFO - Total products scraped: 0
+2025-12-09 15:42:26,350 - src.utils - INFO - No products scraped
+2025-12-09 15:42:26,350 - src.utils - INFO - Price scraper finished
+2025-12-09 15:42:52,028 - src.utils - INFO - Starting price scraper
+2025-12-09 15:42:52,029 - src.utils - INFO - Loaded 1 site configurations
+2025-12-09 15:42:52,029 - src.scraper - INFO - Registered parser: base
+2025-12-09 15:42:52,029 - src.scraper - INFO - Registered parser: generic
+2025-12-09 15:42:52,036 - src.utils - WARNING - API health check failed. Continuing anyway...
+2025-12-09 15:42:52,036 - src.scraper - INFO - Scraping site: Local Test Site
+2025-12-09 15:42:52,039 - src.scraper - INFO - Scraped 1 products from Local Test Site
+2025-12-09 15:42:52,039 - src.scraper - INFO - Total products scraped: 1
+2025-12-09 15:42:52,045 - src.api_client - ERROR - API Error details: {"success":false,"message":"Validation failed","errors":{"prices.0.availability":["The selected prices.0.availability is invalid."]}}
+2025-12-09 15:42:52,045 - src.api_client - ERROR - Failed to send products to API: 422 Client Error: Unprocessable Content for url: http://localhost:8000/api/v1/scraper/price/bulk
+2025-12-09 15:42:52,045 - src.utils - ERROR - Failed to send products to API: 422 Client Error: Unprocessable Content for url: http://localhost:8000/api/v1/scraper/price/bulk
+2025-12-09 15:42:52,045 - src.utils - INFO - Price scraper finished
+2025-12-09 15:43:09,989 - src.utils - INFO - Starting price scraper
+2025-12-09 15:43:09,990 - src.utils - INFO - Loaded 1 site configurations
+2025-12-09 15:43:09,990 - src.scraper - INFO - Registered parser: base
+2025-12-09 15:43:09,990 - src.scraper - INFO - Registered parser: generic
+2025-12-09 15:43:09,997 - src.utils - WARNING - API health check failed. Continuing anyway...
+2025-12-09 15:43:09,997 - src.scraper - INFO - Scraping site: Local Test Site
+2025-12-09 15:43:10,000 - src.scraper - INFO - Scraped 1 products from Local Test Site
+2025-12-09 15:43:10,000 - src.scraper - INFO - Total products scraped: 1
+2025-12-09 15:43:10,000 - src.api_client - INFO - Sending payload: [{'product_id': 4, 'location_id': 4, 'price': 50.0, 'original_price': 60.0, 'currency': 'USD', 'availability': 'in stock', 'url': 'http://localhost:8080/test.html', 'scraped_at': '2025-12-09T15:43:10.000389'}]
+2025-12-09 15:43:10,006 - src.api_client - ERROR - API Error details: {"success":false,"message":"Validation failed","errors":{"prices.0.availability":["The selected prices.0.availability is invalid."]}}
+2025-12-09 15:43:10,006 - src.api_client - ERROR - Failed to send products to API: 422 Client Error: Unprocessable Content for url: http://localhost:8000/api/v1/scraper/price/bulk
+2025-12-09 15:43:10,006 - src.utils - ERROR - Failed to send products to API: 422 Client Error: Unprocessable Content for url: http://localhost:8000/api/v1/scraper/price/bulk
+2025-12-09 15:43:10,006 - src.utils - INFO - Price scraper finished
+2025-12-09 15:43:28,593 - src.utils - INFO - Starting price scraper
+2025-12-09 15:43:28,594 - src.utils - INFO - Loaded 1 site configurations
+2025-12-09 15:43:28,594 - src.scraper - INFO - Registered parser: base
+2025-12-09 15:43:28,594 - src.scraper - INFO - Registered parser: generic
+2025-12-09 15:43:28,602 - src.utils - WARNING - API health check failed. Continuing anyway...
+2025-12-09 15:43:28,602 - src.scraper - INFO - Scraping site: Local Test Site
+2025-12-09 15:43:28,605 - src.scraper - INFO - Scraped 1 products from Local Test Site
+2025-12-09 15:43:28,605 - src.scraper - INFO - Total products scraped: 1
+2025-12-09 15:43:28,605 - src.api_client - INFO - Sending payload: [{'product_id': 4, 'location_id': 4, 'price': 50.0, 'original_price': 60.0, 'currency': 'USD', 'availability': 'in_stock', 'url': 'http://localhost:8080/test.html', 'scraped_at': '2025-12-09T15:43:28.605562'}]
+2025-12-09 15:43:28,624 - src.api_client - INFO - Successfully sent 1 products to API
+2025-12-09 15:43:28,624 - src.utils - INFO - API Response: {'success': True, 'message': 'Bulk price data processing completed', 'summary': {'total_processed': 1, 'successful': 1, 'failed': 0}, 'errors': []}
+2025-12-09 15:43:28,624 - src.utils - INFO - Price scraper finished
+2025-12-09 15:51:45,207 - src.utils - INFO - Starting price scraper
+2025-12-09 15:51:45,208 - src.utils - INFO - Loaded 1 site configurations
+2025-12-09 15:51:45,208 - src.scraper - INFO - Registered parser: base
+2025-12-09 15:51:45,208 - src.scraper - INFO - Registered parser: generic
+2025-12-09 15:51:45,220 - src.utils - WARNING - API health check failed. Continuing anyway...
+2025-12-09 15:51:45,220 - src.scraper - INFO - Scraping site: Walmart - Acer Nitro V Laptop
+2025-12-09 15:51:45,919 - src.parsers.generic - WARNING - Could not find price for Walmart - Acer Nitro V Laptop
+2025-12-09 15:51:45,920 - src.scraper - INFO - Scraped 0 products from Walmart - Acer Nitro V Laptop
+2025-12-09 15:51:45,920 - src.scraper - INFO - Total products scraped: 0
+2025-12-09 15:51:45,920 - src.utils - INFO - No products scraped
+2025-12-09 15:51:45,920 - src.utils - INFO - Price scraper finished
+2025-12-09 16:31:41,944 - src.utils - INFO - Starting price scraper
+2025-12-09 16:31:41,945 - src.utils - INFO - Loaded 1 site configurations
+2025-12-09 16:31:41,945 - src.scraper - INFO - Registered parser: base
+2025-12-09 16:31:41,945 - src.scraper - INFO - Registered parser: generic
+2025-12-09 16:31:41,945 - src.scraper - INFO - Registered parser: browser
+2025-12-09 16:31:41,982 - src.utils - WARNING - API health check failed. Continuing anyway...
+2025-12-09 16:31:41,982 - src.scraper - INFO - Scraping site: Walmart - Acer Nitro V Laptop
+2025-12-09 16:31:41,983 - WDM - INFO - ====== WebDriver manager ======
+2025-12-09 16:31:43,382 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2025-12-09 16:31:45,298 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2025-12-09 16:31:47,079 - WDM - INFO - There is no [mac64] chromedriver "142.0.7444.175" for browser google-chrome "142.0.7444" in cache
+2025-12-09 16:31:47,092 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2025-12-09 16:31:51,319 - WDM - INFO - WebDriver version 142.0.7444.175 selected
+2025-12-09 16:31:51,322 - WDM - INFO - Modern chrome version https://storage.googleapis.com/chrome-for-testing-public/142.0.7444.175/mac-arm64/chromedriver-mac-arm64.zip
+2025-12-09 16:31:51,322 - WDM - INFO - About to download new driver from https://storage.googleapis.com/chrome-for-testing-public/142.0.7444.175/mac-arm64/chromedriver-mac-arm64.zip
+2025-12-09 16:31:52,747 - WDM - INFO - Driver downloading response is 200
+2025-12-09 16:31:56,100 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2025-12-09 16:31:57,872 - WDM - INFO - Driver has been saved in cache [/Users/cyberdynetechnologyltd/.wdm/drivers/chromedriver/mac64/142.0.7444.175]
+2025-12-09 16:31:59,204 - src.parsers.browser - INFO - Browser initialized successfully
+2025-12-09 16:31:59,205 - src.parsers.browser - INFO - Loading page with browser: https://www.walmart.com/ip/Acer-Nitro-V-15-6-1920-x-1080-FHD-165Hz-Gaming-Laptop-Intel-Core-i5-16GB-RAM-512GB-Obsidian-Black/16528002857
+2025-12-09 16:32:08,431 - src.parsers.browser - WARNING - Could not find price for Walmart - Acer Nitro V Laptop
+2025-12-09 16:32:08,499 - src.parsers.browser - INFO - Browser closed successfully
+2025-12-09 16:32:08,499 - src.scraper - INFO - Scraped 0 products from Walmart - Acer Nitro V Laptop
+2025-12-09 16:32:08,499 - src.scraper - INFO - Total products scraped: 0
+2025-12-09 16:32:08,499 - src.utils - INFO - No products scraped
+2025-12-09 16:32:08,499 - src.utils - INFO - Price scraper finished
+2025-12-09 16:32:29,824 - src.utils - INFO - Starting price scraper
+2025-12-09 16:32:29,825 - src.utils - INFO - Loaded 1 site configurations
+2025-12-09 16:32:29,825 - src.scraper - INFO - Registered parser: base
+2025-12-09 16:32:29,826 - src.scraper - INFO - Registered parser: generic
+2025-12-09 16:32:29,826 - src.scraper - INFO - Registered parser: browser
+2025-12-09 16:32:29,833 - src.utils - WARNING - API health check failed. Continuing anyway...
+2025-12-09 16:32:29,834 - src.scraper - INFO - Scraping site: Walmart - Acer Nitro V Laptop
+2025-12-09 16:32:29,834 - WDM - INFO - ====== WebDriver manager ======
+2025-12-09 16:32:31,336 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2025-12-09 16:32:32,853 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2025-12-09 16:32:34,701 - WDM - INFO - Driver [/Users/cyberdynetechnologyltd/.wdm/drivers/chromedriver/mac64/142.0.7444.175/chromedriver-mac-arm64/chromedriver] found in cache
+2025-12-09 16:32:35,644 - src.parsers.browser - INFO - Browser initialized successfully
+2025-12-09 16:32:35,645 - src.parsers.browser - INFO - Loading page with browser: https://www.walmart.com/ip/Acer-Nitro-V-15-6-1920-x-1080-FHD-165Hz-Gaming-Laptop-Intel-Core-i5-16GB-RAM-512GB-Obsidian-Black/16528002857
+2025-12-09 16:32:45,291 - src.parsers.browser - INFO - Screenshot saved to debug_screenshot_1765276365.png
+2025-12-09 16:32:45,296 - src.parsers.browser - WARNING - Could not find price for Walmart - Acer Nitro V Laptop
+2025-12-09 16:32:45,362 - src.parsers.browser - INFO - Browser closed successfully
+2025-12-09 16:32:45,363 - src.scraper - INFO - Scraped 0 products from Walmart - Acer Nitro V Laptop
+2025-12-09 16:32:45,363 - src.scraper - INFO - Total products scraped: 0
+2025-12-09 16:32:45,363 - src.utils - INFO - No products scraped
+2025-12-09 16:32:45,363 - src.utils - INFO - Price scraper finished
+2025-12-09 16:35:56,655 - src.utils - INFO - Starting price scraper
+2025-12-09 16:35:56,656 - src.utils - INFO - Loaded 1 site configurations
+2025-12-09 16:35:56,656 - src.scraper - INFO - Registered parser: base
+2025-12-09 16:35:56,656 - src.scraper - INFO - Registered parser: generic
+2025-12-09 16:35:56,656 - src.scraper - INFO - Registered parser: browser
+2025-12-09 16:35:56,673 - src.utils - WARNING - API health check failed. Continuing anyway...
+2025-12-09 16:35:56,673 - src.scraper - INFO - Scraping site: Walmart - Acer Nitro V Laptop
+2025-12-09 16:36:03,531 - undetected_chromedriver.patcher - INFO - patching driver executable /Users/cyberdynetechnologyltd/Library/Application Support/undetected_chromedriver/undetected_chromedriver
+2025-12-09 16:36:07,525 - src.parsers.browser - ERROR - Failed to initialize browser: Message: session not created: cannot connect to chrome at 127.0.0.1:58647
+from session not created: This version of ChromeDriver only supports Chrome version 143
+Current browser version is 142.0.7444.176; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#sessionnotcreatedexception
+Stacktrace:
+0   undetected_chromedriver             0x0000000103477568 undetected_chromedriver + 6595944
+1   undetected_chromedriver             0x000000010346ec1a undetected_chromedriver + 6560794
+2   undetected_chromedriver             0x0000000102e97c3b undetected_chromedriver + 437307
+3   undetected_chromedriver             0x0000000102ed8fa5 undetected_chromedriver + 704421
+4   undetected_chromedriver             0x0000000102ed7e8e undetected_chromedriver + 700046
+5   undetected_chromedriver             0x0000000102ecd328 undetected_chromedriver + 656168
+6   undetected_chromedriver             0x0000000102f1dbdb undetected_chromedriver + 986075
+7   undetected_chromedriver             0x0000000102f1d2cc undetected_chromedriver + 983756
+8   undetected_chromedriver             0x0000000102edbfc7 undetected_chromedriver + 716743
+9   undetected_chromedriver             0x0000000102edcc91 undetected_chromedriver + 720017
+10  undetected_chromedriver             0x0000000103434691 undetected_chromedriver + 6321809
+11  undetected_chromedriver             0x0000000103438af0 undetected_chromedriver + 6339312
+12  undetected_chromedriver             0x000000010340f263 undetected_chromedriver + 6169187
+13  undetected_chromedriver             0x0000000103439565 undetected_chromedriver + 6341989
+14  undetected_chromedriver             0x00000001033fdee1 undetected_chromedriver + 6098657
+15  undetected_chromedriver             0x000000010345bab8 undetected_chromedriver + 6482616
+16  undetected_chromedriver             0x000000010345bc73 undetected_chromedriver + 6483059
+17  undetected_chromedriver             0x000000010346e81c undetected_chromedriver + 6559772
+18  libsystem_pthread.dylib             0x00007ff805151e4d _pthread_start + 115
+19  libsystem_pthread.dylib             0x00007ff80514d857 thread_start + 15
+
+2025-12-09 16:36:07,526 - src.parsers.browser - ERROR - Error parsing Walmart - Acer Nitro V Laptop: Message: session not created: cannot connect to chrome at 127.0.0.1:58647
+from session not created: This version of ChromeDriver only supports Chrome version 143
+Current browser version is 142.0.7444.176; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#sessionnotcreatedexception
+Stacktrace:
+0   undetected_chromedriver             0x0000000103477568 undetected_chromedriver + 6595944
+1   undetected_chromedriver             0x000000010346ec1a undetected_chromedriver + 6560794
+2   undetected_chromedriver             0x0000000102e97c3b undetected_chromedriver + 437307
+3   undetected_chromedriver             0x0000000102ed8fa5 undetected_chromedriver + 704421
+4   undetected_chromedriver             0x0000000102ed7e8e undetected_chromedriver + 700046
+5   undetected_chromedriver             0x0000000102ecd328 undetected_chromedriver + 656168
+6   undetected_chromedriver             0x0000000102f1dbdb undetected_chromedriver + 986075
+7   undetected_chromedriver             0x0000000102f1d2cc undetected_chromedriver + 983756
+8   undetected_chromedriver             0x0000000102edbfc7 undetected_chromedriver + 716743
+9   undetected_chromedriver             0x0000000102edcc91 undetected_chromedriver + 720017
+10  undetected_chromedriver             0x0000000103434691 undetected_chromedriver + 6321809
+11  undetected_chromedriver             0x0000000103438af0 undetected_chromedriver + 6339312
+12  undetected_chromedriver             0x000000010340f263 undetected_chromedriver + 6169187
+13  undetected_chromedriver             0x0000000103439565 undetected_chromedriver + 6341989
+14  undetected_chromedriver             0x00000001033fdee1 undetected_chromedriver + 6098657
+15  undetected_chromedriver             0x000000010345bab8 undetected_chromedriver + 6482616
+16  undetected_chromedriver             0x000000010345bc73 undetected_chromedriver + 6483059
+17  undetected_chromedriver             0x000000010346e81c undetected_chromedriver + 6559772
+18  libsystem_pthread.dylib             0x00007ff805151e4d _pthread_start + 115
+19  libsystem_pthread.dylib             0x00007ff80514d857 thread_start + 15
+
+2025-12-09 16:36:07,526 - src.scraper - INFO - Scraped 0 products from Walmart - Acer Nitro V Laptop
+2025-12-09 16:36:07,526 - src.scraper - INFO - Total products scraped: 0
+2025-12-09 16:36:07,526 - src.utils - INFO - No products scraped
+2025-12-09 16:36:07,526 - src.utils - INFO - Price scraper finished
+2025-12-09 16:36:36,592 - src.utils - INFO - Starting price scraper
+2025-12-09 16:36:36,593 - src.utils - INFO - Loaded 1 site configurations
+2025-12-09 16:36:36,593 - src.scraper - INFO - Registered parser: base
+2025-12-09 16:36:36,593 - src.scraper - INFO - Registered parser: generic
+2025-12-09 16:36:36,594 - src.scraper - INFO - Registered parser: browser
+2025-12-09 16:36:36,602 - src.utils - WARNING - API health check failed. Continuing anyway...
+2025-12-09 16:36:36,602 - src.scraper - INFO - Scraping site: Walmart - Acer Nitro V Laptop
+2025-12-09 16:36:43,775 - undetected_chromedriver.patcher - INFO - patching driver executable /Users/cyberdynetechnologyltd/Library/Application Support/undetected_chromedriver/undetected_chromedriver
+2025-12-09 16:36:47,224 - src.parsers.browser - INFO - Undetected browser initialized successfully
+2025-12-09 16:36:47,224 - src.parsers.browser - INFO - Loading page with browser: https://www.walmart.com/ip/Acer-Nitro-V-15-6-1920-x-1080-FHD-165Hz-Gaming-Laptop-Intel-Core-i5-16GB-RAM-512GB-Obsidian-Black/16528002857
+2025-12-09 16:36:56,095 - src.parsers.browser - INFO - Screenshot saved to debug_screenshot_1765276616.png
+2025-12-09 16:36:56,101 - src.parsers.browser - WARNING - Could not find price for Walmart - Acer Nitro V Laptop
+2025-12-09 16:36:56,297 - src.parsers.browser - INFO - Browser closed successfully
+2025-12-09 16:36:56,297 - src.scraper - INFO - Scraped 0 products from Walmart - Acer Nitro V Laptop
+2025-12-09 16:36:56,297 - src.scraper - INFO - Total products scraped: 0
+2025-12-09 16:36:56,297 - src.utils - INFO - No products scraped
+2025-12-09 16:36:56,297 - src.utils - INFO - Price scraper finished
